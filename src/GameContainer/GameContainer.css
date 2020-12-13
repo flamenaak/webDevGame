@@ -1,0 +1,39 @@
+.game-app {
+  margin-top: 30px;
+}
+
+.game-app .scoreboard {
+  max-height: 545px;
+  overflow-y: scroll;
+  width: 100%;
+  margin-top: 60px;
+}
+
+.score {
+  margin-bottom: 30px;
+}
+
+.action {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+@media screen and (max-width: 1200px) {
+  .game-app .scoreboard {
+    max-height: 455px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .game-app .scoreboard {
+    max-height: 335px;
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .action {
+    margin-top: 35px;
+  }
+}

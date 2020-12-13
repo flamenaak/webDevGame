@@ -1,0 +1,38 @@
+.snackbar {
+  position: fixed;
+  bottom: 0;
+  width: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  animation-duration: 0.7s;
+  animation-fill-mode: forwards;
+  text-align: center;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    display: initial !important;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    display: none;
+  }
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+}
+
+.fadeOut {
+  animation-name: fadeOut;
+}
